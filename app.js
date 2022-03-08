@@ -19,6 +19,7 @@ app.use(express.urlencoded({ extended: false }))
 //Routes
 app.use('/', require('./routes/index'))
 app.use('/', require('./routes/fucntions'))
+app.use('/', require('./routes/nav'))
 
 //EJS
 app.use(expressLayouts)
